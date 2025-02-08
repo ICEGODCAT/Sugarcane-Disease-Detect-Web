@@ -1,6 +1,6 @@
 opencv-python
 SciPy
-NumPy == 1.20.0
+NumPy
 tensorflow==2.12.1 
 streamlit==1.22.0
 streamlit-extras
