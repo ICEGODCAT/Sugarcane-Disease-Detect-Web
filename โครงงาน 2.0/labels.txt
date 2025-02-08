@@ -1,5 +1,0 @@
-0 Healthy
-1 Moasic
-2 Rust
-3 Yellow
-4 Redrot
