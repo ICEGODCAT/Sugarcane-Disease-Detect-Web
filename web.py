@@ -26,7 +26,7 @@ def main():
      image = st.camera_input(label ="Capture Image", key="First Camera", label_visibility="hidden")# this captures the image 
      if image:
         np.set_printoptions(suppress=True)
-        model = load_model("keras_Model.h5", compile=False) # this section loads the  model and labels that are used
+        model = load_model("keras_model.h5", compile=False) # this section loads the  model and labels that are used
         class_names = open("labels.txt", "r").readlines()
         
         img = Image.open(image) # stores the natural image so that itcan be manipulated
